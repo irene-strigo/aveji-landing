@@ -1,0 +1,131 @@
+.main-container{
+margin: 0 auto;
+    max-width: 100%;
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner-container{
+    background: url(images/banner-picture.jpg) no-repeat;
+    background-size: 100%;
+height:100%;
+    display: flex;
+    align-items: center;
+    
+}
+.banner-btn{
+    background-color: #EA7148;
+    border-radius: 20px;
+    border-style: none;
+    padding: 7px;
+justify-content: center;
+align-items: center;
+color: #F9F5F2;
+font-family: Cormorant;
+}
+.banner-items-container{
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 80%;
+min-height: 170px;
+
+}
+@media  screen and (min-width: 1025px){
+    .banner-items-container{
+        justify-content: center;
+        height: 600px;
+    }
+    .banner-btn, .banner-logo, .banner-slogan{
+        padding: 10px;
+    }
+    .banner-btn{
+    width: 480px;
+    font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .banner-logo{
+        width: 462px; 
+    }
+    
+}
+@media  screen and (min-width: 762px){
+    .banner-btn, .banner-logo, .banner-slogan{
+        padding: 10px;
+    }
+    .banner-slogan{
+
+font-style: normal;
+font-weight: 400;
+line-height: 60px;
+    }
+   
+    
+}
+.banner-logo{
+    max-width: 100%;
+}
+
+@media  screen and (min-width: 600px){
+    .banner-slogan{
+       font-size: 20px;
+    }
+    
+}
+
+.banner-slogan{
+text-align: center;
+font-size: smaller;
+
+}
+.banner-items-box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.about-container{
+    display: flex;
+    max-width: 100%;
+width: 1180px;
+/*height: 538px;*/
+height: 100%;
+margin: 80px auto;
+align-items: flex-start;
+gap: 100px;
+flex-shrink: 0;
+}
+@media  screen and (max-width: 600px){
+    .about-container{
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 0;
+        font-size: small;
+    }
+
+}
+.about-text-heading{
+    font-size: 3.5em;
+font-family: Cormorant;
+font-style: normal;
+font-weight: 500;
+line-height: 60px;
+}
+.about-text-central{
+    font-size: 1em;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+.about-text-end{
+    font-size: 2em;
+font-family: Cormorant;
+font-style: normal;
+line-height: 52px;
+}
+.about-picture{
+    width: 100%;
+}
