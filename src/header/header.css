@@ -6,12 +6,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
 font-family:'Roboto';
-/*width: 1440px;*/
 height: 96px;
 position: sticky;
 background-color: #FFF;
 top:0   
 }
+
 @media  screen and (max-width: 840px){
     .header-container{
         justify-content: center; 

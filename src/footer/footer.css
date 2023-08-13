@@ -1,6 +1,6 @@
 .footer-container{
     max-width: 100%;
-    width: 1180px;
+    max-width: 1180px;
     margin: 0 auto;
     height: 100%;
     /*max-height: 265px;*/
