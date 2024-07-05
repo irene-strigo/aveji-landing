@@ -10,13 +10,13 @@ function Gallery() {
         <div className="gallery-container">
             <h2 className="heading about-text-heading">Галерея наших работ</h2>
             <div className="foto-container">
-                <img className='foto-item' src={galleryFoto1} alt='interior'></img>
-                <img className='foto-item' src={galleryFoto2} alt='interior'></img>
-                <img className='foto-item' src={galleryFoto3} alt='interior'></img>
-                <img className='foto-item' src={galleryFoto4} alt='interior'></img>
-                <img className='foto-item' src={galleryFoto5} alt='interior'></img>
-                <img className='foto-item' src={galleryFoto6} alt='interior'></img>
-                <img className='foto-item' src={galleryFoto7} alt='interior'></img>
+                <img className='foto-item foto-item1' src={galleryFoto1} alt='interior'></img>
+                <img className='foto-item foto-item2' src={galleryFoto2} alt='interior'></img>
+                <img className='foto-item foto-item3' src={galleryFoto3} alt='interior'></img>
+                <img className='foto-item foto-item4' src={galleryFoto4} alt='interior'></img>
+                <img className='foto-item foto-item5' src={galleryFoto5} alt='interior'></img>
+                <img className='foto-item foto-item6' src={galleryFoto6} alt='interior'></img>
+                <img className='foto-item foto-item7' src={galleryFoto7} alt='interior'></img>
             </div>
         </div>
     )

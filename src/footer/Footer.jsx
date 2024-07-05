@@ -10,8 +10,8 @@ function Footer() {
                     Для консультации с нашим специалистом просто заполните форму и мы свяжемся
                 </div>
                 <div className='footer-links'>
-                    <a herf='#'><img src={appStoreIcon} alt='appStore'></img></a>
-                    <a herf='#'><img src={googlePlayIcon} alt='googlePlay'></img></a>
+                    <a herf='#'><img className='footer-link-img' src={appStoreIcon} alt='appStore'></img></a>
+                    <a herf='#'><img className='footer-link-img' src={googlePlayIcon} alt='googlePlay'></img></a>
                 </div>
             </div>
             <div className='footer-form-container'>
