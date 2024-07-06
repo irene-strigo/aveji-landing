@@ -1,7 +1,9 @@
 import Header from "./header/Header";
 import Main from "./main/Main";
+import Footer from "./footer/Footer"
+//import Form from "./form/Form";
 import './app.css'
-import Footer from "./footer/Footer";
+
 
 function App() {
   return (

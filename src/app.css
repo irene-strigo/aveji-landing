@@ -1,4 +1,5 @@
-.app-div{
-    max-width: 1440px;
-    margin: 0 auto;
+.app-div {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: clamp(1rem, 2.5vw, 2rem);
 }
