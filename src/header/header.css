@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   font-family: 'Roboto';
-  height: 96px;
+
   position: sticky;
   background-color: #FFF;
   top: 0
@@ -33,7 +33,6 @@
 .header-menu {
   display: flex;
   justify-content: center;
-  width: 580px;
   align-items: center;
 }
 

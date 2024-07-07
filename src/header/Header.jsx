@@ -18,9 +18,9 @@ function Header() {
         <a className='header-menu-item' href="/Form">Оставить{'\u00A0'}заявку</a>
       </div>
       < div className="header-contacts">
-        <a className='header-contacts-item' href='/About'><img className='header-icon' src={email} alt='email'></img></a>
-        <a className='header-contacts-item' href='/About'><img className='header-icon' src={whatsapp} alt='whatsapp'></img></a>
-        <a className='header-contacts-item' href='/About'><img className='header-icon' src={telegram} alt='telegram'></img></a>
+        <a className='header-contacts-item' href='/Form'><img className='header-icon' src={email} alt='email'></img></a>
+        <a className='header-contacts-item' href='/Form'><img className='header-icon' src={whatsapp} alt='whatsapp'></img></a>
+        <a className='header-contacts-item' href='/Form'><img className='header-icon' src={telegram} alt='telegram'></img></a>
 
       </div>
     </div>
